@@ -37,3 +37,5 @@ The purpose of this project is to demonstrate an understanding of digital design
 4. The C++ testbench applies several test cases, evaluates the ALU outputs, and prints results in a formatted table.
 
 ### Example Output
+![Example Output](Example_Output.png)
+
