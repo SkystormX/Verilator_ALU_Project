@@ -39,3 +39,18 @@ The purpose of this project is to demonstrate an understanding of digital design
 ### Example Output
 ![Example Output](Example_Output.png)
 
+
+## Tools Used
+- **Verilog** for hardware design  
+- **Verilator** for simulation  
+- **C++** for testbench development  
+- **GTKWave** *(optional)* for waveform visualisation
+
+## Learning Outcomes
+- Practised fundamental Verilog design and combinational logic.
+- Learnt how to connect hardware modules to C++ testbenches using Verilator.
+- Understood the hardware simulation and verification workflow.
+
+---
+
+> **Next steps:** Add randomised testing and waveform tracing to improve verification coverage and analysis.
