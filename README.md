@@ -12,24 +12,6 @@ The purpose of this project is to demonstrate an understanding of digital design
 - Fully combinational design (no clock required)
 - Simulated using Verilator and tested with C++
 
-## Supported Operations
-| Opcode | Operation | Description        |
-|:------:|------------|--------------------|
-| 000 | ADD | A + B |
-| 001 | SUB | A - B |
-| 010 | AND | A & B |
-| 011 | OR  | A \| B |
-| 100 | XOR | A ^ B |
-| 101 | NOR | ~(A \| B) |
-| 110 | SHIFT LEFT | A << 1 |
-| 111 | SHIFT RIGHT | A >> 1 |
-
-## Files
-| File | Description |
-|------|--------------|
-| `ALU.v` | Verilog source code for the ALU |
-| `Test_ALU.cpp` | C++ testbench for simulation using Verilator |
-
 ## How It Works
 1. The Verilog ALU takes two 8-bit inputs (`A`, `B`) and a 3-bit control signal (`opcode`).
 2. The operation is selected based on the opcode.
